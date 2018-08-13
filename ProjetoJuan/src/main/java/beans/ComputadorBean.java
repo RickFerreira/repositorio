@@ -18,7 +18,7 @@ import services.GerenciadorBD;
 @ApplicationScoped
 @ManagedBean(name = "computadorService")
 public class ComputadorBean {
-	// Gerencia pecas
+
 	private List<MontagemDeComputador> pcs = new ArrayList<MontagemDeComputador>();
 	private MontagemDeComputador pcBuscado = new MontagemDeComputador();
 	private MontagemDeComputador pcEditado;

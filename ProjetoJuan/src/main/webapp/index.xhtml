@@ -4,15 +4,25 @@
 	xmlns:p="http://primefaces.org/ui"
 	xmlns:f="http://xmlns.jcp.org/jsf/core">
 
+
 <h:head>
-	<title>Fonte de alimentacao</title>
+	<title>Rian PC</title>
 </h:head>
+
 <h:body>
 	<h:form>
- 
- 
+		<p:messages>
+		</p:messages>
+		<p:tabMenu>
+			<p:menuitem icon="ui-icon-disk" value="PCs Prontos"
+				url="pcsSalvos.xhtml" />
+			<p:menuitem icon="ui-icon-disk" value="Monte um PC"
+				url="montarPc.xhtml" />
+		</p:tabMenu>
 	</h:form>
+	<marquee scrollamount="40">
+		<h1 style="font-size: 100px; color: blue; text-align: left;">Monte de seu jeito</h1>
+		<h:graphicImage url="/images/pc.jpg"/>
+	</marquee>
 </h:body>
-
-
 </html>
