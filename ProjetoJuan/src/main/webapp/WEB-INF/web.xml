@@ -18,4 +18,8 @@
     <servlet-name>Faces Servlet</servlet-name>
     <url-pattern>*.xhtml</url-pattern>
   </servlet-mapping>
+  <context-param>
+		<param-name>primefaces.THEME</param-name>
+		<param-value>Dot-Luv</param-value>
+	</context-param>
 </web-app>
