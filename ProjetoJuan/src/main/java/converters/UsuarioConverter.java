@@ -6,10 +6,10 @@ import javax.faces.convert.Converter;
 import javax.faces.convert.FacesConverter;
 import javax.inject.Inject;
 
-import br.edu.ifpb.esperanca.daw2.dao.DAO;
-import br.edu.ifpb.esperanca.daw2.dao.UsuarioDAO;
-import br.edu.ifpb.esperanca.daw2.ifoto.entities.Identificavel;
-import br.edu.ifpb.esperanca.daw2.ifoto.entities.Usuario;
+import dao.DAO;
+import dao.UsuarioDAO;
+import entities.Identificavel;
+import entities.Usuario;
 
 @FacesConverter(forClass=Usuario.class)
 public class UsuarioConverter implements Converter {
