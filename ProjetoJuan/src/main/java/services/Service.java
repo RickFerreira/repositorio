@@ -1,10 +1,10 @@
-package services1;
+package services;
 
 import java.util.List;
 
-import br.edu.ifpb.esperanca.daw2.ifoto.entities.Identificavel;
+import entities.Identificavel;
 
-public interface Service<E extends Identificavel> {
+public interface Service<E extends entities.Identificavel> {
 
 	void save(E e);
 

@@ -12,7 +12,7 @@ public class GerenciadorBD {
 	private EntityManager em;
 
 	public GerenciadorBD() {
-		setEm(Persistence.createEntityManagerFactory("KArtHugo").createEntityManager());
+		setEm(Persistence.createEntityManagerFactory("ProjetoRian").createEntityManager());
 		//em.getTransaction().begin();
 	}
 

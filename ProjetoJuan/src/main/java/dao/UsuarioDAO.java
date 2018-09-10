@@ -2,8 +2,8 @@ package dao;
 
 import java.util.List;
 
-import br.edu.ifpb.esperanca.daw2.filtros.UsuarioFiltro;
-import br.edu.ifpb.esperanca.daw2.ifoto.entities.Usuario;
+import filtros.UsuarioFiltro;
+import entities.Usuario;
 
 public class UsuarioDAO extends DAO<Usuario> {
 	
